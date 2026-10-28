@@ -1,0 +1,26 @@
+{
+  "name": "intune-helpdesk-api",
+  "version": "1.0.0",
+  "description": "API for Intune Helpdesk application to manage devices and perform actions using Microsoft Graph API.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "func start",
+    "build": "func pack",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/functions": "^3.0.0",
+    "@microsoft/microsoft-graph-client": "^3.0.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/node": "^14.0.0",
+    "@types/jest": "^26.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT"
+}
